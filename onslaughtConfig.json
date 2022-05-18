@@ -6,18 +6,18 @@
 	"gameHostRegisterBindAddress": "",
 	"gameHostRegisterPort": 2001,
 	"game": {
-		"name": "Server Name - Mission Name",
-		"password": "",
-		"scenarioId": "{ECC61978EDCC2B5A}Missions/23_Campaign.conf",
+		"name": "Mor-Server-Onslaught",
+		"password": "nok",
+		"scenarioId": "{72543152A656DA54}Missions/Onslaught_M01.conf",
 		"playerCountLimit": 32,
-		"autoJoinable": false,
+		"autoJoinable": true,
 		"visible": true,
 		"gameProperties": {
 			"serverMaxViewDistance": 2500,
 			"serverMinGrassDistance": 50,
 			"networkViewDistance": 1000,
 			"disableThirdPerson": true,
-			"fastValidation": true,
+			"fastValidation": false,
 			"battlEye": true,
 			"missionHeader": {
 				"m_iPlayerCount": 40,
@@ -25,18 +25,6 @@
 				"m_eDefaultGameFlags": 6,
 				"other": "values"
 			}
-		},
-		"mods": [
-			{
-				"modId": "abcd3995-b1d9-473d-aa11-0836c0a595ad",
-				"name": "WeaponSwitching",
-				"version": "1.0.1"
-			},
-			{
-				"modId": "efgh3995-b1d9-473d-aa11-0836c0a595ad",
-				"name": "Explosive Goats beta",
-				"version": "0.5.42"
-			}
-		]
+		}
 	}
 }
